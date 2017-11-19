@@ -6,7 +6,7 @@ import GuideList from './src/components/GuideList';
 
 //Create a Component
 const App = () => (
-  <View>
+  <View style={{ flex: 1 }}>
     <Header headerText={'Guide.Me'} />
     <GuideList />
   </View>
